@@ -15,8 +15,8 @@ ul {
     list-style-type: none;
 }
 
-img {
-    height: 400px;
+.nyurga-image {
+    height: 512px;
     width: auto;
 }
 
