@@ -26,8 +26,8 @@ button {
 
 .header {
     display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
+    justify-content: space-between;
+    padding: 12px 256px;
     background-color: #1F2937;
     font-size: 24px;
 }
@@ -48,7 +48,7 @@ button {
 .first-block {
     display: flex;
     gap: 24px;
-    padding: 128px 312px;
+    padding: 128px 256px;
     justify-content: space-between;
     color: #F9FAF8;    
     background-color: #1F2937;
@@ -73,8 +73,8 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 5px;
-    max-width: 125px;
-    height: 35px;
+    width: 125px;
+    height: 55px;
 }
 
 .second-block {
@@ -82,6 +82,7 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 128px 256px;
+    padding-top: 96px;
     gap: 32px;
 }
 
@@ -91,15 +92,22 @@ button {
 
 .second-block ul {
     display: flex;
-    justify-content: center;
     gap: 32px;
-    text-align: center;
+}
+
+.second-block ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    color: #1F2937;
+    gap: 16px;
 }
 
 .third-block {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     padding: 128px 256px;
     background-color: #E5E7EB;
 }
